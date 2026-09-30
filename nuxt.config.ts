@@ -23,7 +23,7 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       // Итоговый адрес сайта на Vercel: задаётся через NUXT_PUBLIC_SITE_URL
-      siteUrl: 'https://bug-ili-oshibka.vercel.app'
+      siteUrl: 'https://it-anglicisms-dictionary.vercel.app'
     }
   },
 
