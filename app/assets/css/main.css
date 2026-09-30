@@ -1,0 +1,57 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme static {
+  --font-sans: 'Golos Text', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Unbounded', 'Golos Text', ui-sans-serif, sans-serif;
+
+  /* Англицизм — синий */
+  --color-anglo-50: #EEF3FF;
+  --color-anglo-100: #DCE6FF;
+  --color-anglo-200: #BFD0FF;
+  --color-anglo-300: #93AFFF;
+  --color-anglo-400: #6184FF;
+  --color-anglo-500: #2E5BFF;
+  --color-anglo-600: #1E44E6;
+  --color-anglo-700: #1935B8;
+  --color-anglo-800: #1A2F91;
+  --color-anglo-900: #1B2C73;
+  --color-anglo-950: #131B45;
+
+  /* Русский аналог — малиновый */
+  --color-rus-50: #FDF2F6;
+  --color-rus-100: #FBE5EE;
+  --color-rus-200: #F8CCDD;
+  --color-rus-300: #F2A2C0;
+  --color-rus-400: #E86C97;
+  --color-rus-500: #C0265A;
+  --color-rus-600: #A81D4D;
+  --color-rus-700: #8C1840;
+  --color-rus-800: #741738;
+  --color-rus-900: #621732;
+  --color-rus-950: #3A0819;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+    font-weight: 700;
+  }
+
+  /* Якорные секции не прячутся под липкой шапкой */
+  section[id] {
+    scroll-margin-top: var(--ui-header-height);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

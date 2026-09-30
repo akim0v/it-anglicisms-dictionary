@@ -1,0 +1,29 @@
+{
+  "name": "bug-ili-oshibka",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "typecheck": "nuxt typecheck",
+    "test": "vitest run"
+  },
+  "packageManager": "pnpm@8.15.9",
+  "dependencies": {
+    "@nuxt/ui": "^4",
+    "nuxt": "^4",
+    "tailwindcss": "^4"
+  },
+  "devDependencies": {
+    "@iconify-json/lucide": "^1.2.138",
+    "@nuxt/eslint": "^1.17.0",
+    "eslint": "^10.11.0",
+    "typescript": "^6.0.3",
+    "vitest": "^5.0.3",
+    "vue-tsc": "^3.3.11"
+  }
+}

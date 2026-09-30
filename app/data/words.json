@@ -1,0 +1,1072 @@
+[
+  {
+    "id": "bug",
+    "word": "баг",
+    "source": "bug",
+    "meaning": "ошибка в программе",
+    "etymology": "«жук, насекомое»; «неисправность» у инженеров с 1870-х",
+    "etymologyVerified": true,
+    "analog": "ошибка",
+    "group": "B",
+    "sphere": "dev",
+    "assimilation": "full",
+    "gender": "m",
+    "declinable": true,
+    "verbs": null,
+    "derivatives": [
+      "багованный"
+    ],
+    "variants": [],
+    "frequency": {
+      "ruscorpora": {
+        "anglicism": null,
+        "analog": null
+      },
+      "habr": {
+        "anglicism": null,
+        "analog": null
+      }
+    }
+  },
+  {
+    "id": "debug",
+    "word": "дебаг",
+    "source": "debug",
+    "meaning": "поиск и устранение ошибок",
+    "etymology": "de- + bug, «устранять неисправности», с 1945 г.",
+    "etymologyVerified": true,
+    "analog": "отладка",
+    "group": "V",
+    "sphere": "dev",
+    "assimilation": "professional",
+    "gender": "m",
+    "declinable": true,
+    "verbs": {
+      "imperfective": "дебажить",
+      "perfective": "отдебажить",
+      "prefix": "от-"
+    },
+    "derivatives": [],
+    "variants": [],
+    "frequency": {
+      "ruscorpora": {
+        "anglicism": null,
+        "analog": null
+      },
+      "habr": {
+        "anglicism": null,
+        "analog": null
+      }
+    }
+  },
+  {
+    "id": "commit",
+    "word": "коммит",
+    "source": "commit",
+    "meaning": "зафиксированный набор изменений кода",
+    "etymology": "лат. committere «соединять; вверять»; в англ. «поручать» с XIV в.",
+    "etymologyVerified": true,
+    "analog": "фиксация",
+    "group": "V",
+    "sphere": "dev",
+    "assimilation": "professional",
+    "gender": "m",
+    "declinable": true,
+    "verbs": {
+      "imperfective": "коммитить",
+      "perfective": "закоммитить",
+      "prefix": "за-"
+    },
+    "derivatives": [
+      "коммитнуть"
+    ],
+    "variants": [],
+    "frequency": {
+      "ruscorpora": {
+        "anglicism": null,
+        "analog": null
+      },
+      "habr": {
+        "anglicism": null,
+        "analog": null
+      }
+    }
+  },
+  {
+    "id": "push",
+    "word": "пуш",
+    "source": "push",
+    "meaning": "отправка изменений в общий репозиторий",
+    "etymology": "ст.-фр. pousser < лат. pulsare «толкать»",
+    "etymologyVerified": false,
+    "analog": "отправка",
+    "group": "V",
+    "sphere": "dev",
+    "assimilation": "professional",
+    "gender": "m",
+    "declinable": true,
+    "verbs": {
+      "imperfective": "пушить",
+      "perfective": "запушить",
+      "prefix": "за-"
+    },
+    "derivatives": [
+      "пушнуть",
+      "пуш-уведомление"
+    ],
+    "variants": [],
+    "frequency": {
+      "ruscorpora": {
+        "anglicism": null,
+        "analog": null
+      },
+      "habr": {
+        "anglicism": null,
+        "analog": null
+      }
+    }
+  },
+  {
+    "id": "merge",
+    "word": "мерж",
+    "source": "merge",
+    "meaning": "слияние веток кода",
+    "etymology": "лат. mergere «погружать»",
+    "etymologyVerified": false,
+    "analog": "слияние",
+    "group": "V",
+    "sphere": "dev",
+    "assimilation": "professional",
+    "gender": "m",
+    "declinable": true,
+    "verbs": {
+      "imperfective": "мержить",
+      "perfective": "смержить",
+      "prefix": "с-"
+    },
+    "derivatives": [],
+    "variants": [
+      "мердж"
+    ],
+    "frequency": {
+      "ruscorpora": {
+        "anglicism": null,
+        "analog": null
+      },
+      "habr": {
+        "anglicism": null,
+        "analog": null
+      }
+    }
+  },
+  {
+    "id": "branch",
+    "word": "бранч",
+    "source": "branch",
+    "meaning": "ветка кода в репозитории",
+    "etymology": "ст.-фр. branche < позднелат. branca «лапа»",
+    "etymologyVerified": false,
+    "analog": "ветка",
+    "group": "V",
+    "sphere": "dev",
+    "assimilation": "professional",
+    "gender": "m",
+    "declinable": true,
+    "verbs": null,
+    "derivatives": [],
+    "variants": [],
+    "frequency": {
+      "ruscorpora": {
+        "anglicism": null,
+        "analog": null
+      },
+      "habr": {
+        "anglicism": null,
+        "analog": null
+      }
+    }
+  },
+  {
+    "id": "build",
+    "word": "билд",
+    "source": "build",
+    "meaning": "сборка программы из исходного кода",
+    "etymology": "др.-англ. byldan «строить дом»",
+    "etymologyVerified": false,
+    "analog": "сборка",
+    "group": "V",
+    "sphere": "dev",
+    "assimilation": "professional",
+    "gender": "m",
+    "declinable": true,
+    "verbs": {
+      "imperfective": "билдить",
+      "perfective": "сбилдить",
+      "prefix": "с-"
+    },
+    "derivatives": [],
+    "variants": [],
+    "frequency": {
+      "ruscorpora": {
+        "anglicism": null,
+        "analog": null
+      },
+      "habr": {
+        "anglicism": null,
+        "analog": null
+      }
+    }
+  },
+  {
+    "id": "deploy",
+    "word": "деплой",
+    "source": "deploy",
+    "meaning": "развёртывание программы на сервере",
+    "etymology": "фр. déployer «развёртывать» < лат. displicare; с 1786 г. военный термин",
+    "etymologyVerified": true,
+    "analog": "развёртывание",
+    "group": "V",
+    "sphere": "dev",
+    "assimilation": "professional",
+    "gender": "m",
+    "declinable": true,
+    "verbs": {
+      "imperfective": "деплоить",
+      "perfective": "задеплоить",
+      "prefix": "за-"
+    },
+    "derivatives": [],
+    "variants": [],
+    "frequency": {
+      "ruscorpora": {
+        "anglicism": null,
+        "analog": null
+      },
+      "habr": {
+        "anglicism": null,
+        "analog": null
+      }
+    }
+  },
+  {
+    "id": "release",
+    "word": "релиз",
+    "source": "release",
+    "meaning": "выпуск версии программы",
+    "etymology": "ст.-фр. relaissier «отпускать» < лат. relaxare",
+    "etymologyVerified": false,
+    "analog": "выпуск",
+    "group": "B",
+    "sphere": "dev",
+    "assimilation": "full",
+    "gender": "m",
+    "declinable": true,
+    "verbs": {
+      "imperfective": "релизить",
+      "perfective": "зарелизить",
+      "prefix": "за-"
+    },
+    "derivatives": [
+      "релизный"
+    ],
+    "variants": [],
+    "frequency": {
+      "ruscorpora": {
+        "anglicism": null,
+        "analog": null
+      },
+      "habr": {
+        "anglicism": null,
+        "analog": null
+      }
+    }
+  },
+  {
+    "id": "fix",
+    "word": "фикс",
+    "source": "fix",
+    "meaning": "исправление ошибки",
+    "etymology": "лат. fixus «закреплённый»",
+    "etymologyVerified": false,
+    "analog": "исправление",
+    "group": "B",
+    "sphere": "dev",
+    "assimilation": "professional",
+    "gender": "m",
+    "declinable": true,
+    "verbs": {
+      "imperfective": "фиксить",
+      "perfective": "пофиксить",
+      "prefix": "по-"
+    },
+    "derivatives": [],
+    "variants": [],
+    "frequency": {
+      "ruscorpora": {
+        "anglicism": null,
+        "analog": null
+      },
+      "habr": {
+        "anglicism": null,
+        "analog": null
+      }
+    }
+  },
+  {
+    "id": "hotfix",
+    "word": "хотфикс",
+    "source": "hotfix",
+    "meaning": "срочное исправление в работающей системе",
+    "etymology": "hot «горячий» + fix",
+    "etymologyVerified": false,
+    "analog": "срочное исправление",
+    "group": "A",
+    "sphere": "dev",
+    "assimilation": "professional",
+    "gender": "m",
+    "declinable": true,
+    "verbs": null,
+    "derivatives": [],
+    "variants": [],
+    "frequency": {
+      "ruscorpora": {
+        "anglicism": null,
+        "analog": null
+      },
+      "habr": {
+        "anglicism": null,
+        "analog": null
+      }
+    }
+  },
+  {
+    "id": "refactoring",
+    "word": "рефакторинг",
+    "source": "refactoring",
+    "meaning": "переработка кода без изменения поведения",
+    "etymology": "re- + factor (матем. «множитель»); термин популяризировал М. Фаулер (1999)",
+    "etymologyVerified": false,
+    "analog": "переработка кода",
+    "group": "A",
+    "sphere": "dev",
+    "assimilation": "professional",
+    "gender": "m",
+    "declinable": true,
+    "verbs": {
+      "imperfective": "рефакторить",
+      "perfective": "отрефакторить",
+      "prefix": "от-"
+    },
+    "derivatives": [],
+    "variants": [],
+    "frequency": {
+      "ruscorpora": {
+        "anglicism": null,
+        "analog": null
+      },
+      "habr": {
+        "anglicism": null,
+        "analog": null
+      }
+    }
+  },
+  {
+    "id": "script",
+    "word": "скрипт",
+    "source": "script",
+    "meaning": "небольшая программа-сценарий",
+    "etymology": "лат. scriptum «написанное»",
+    "etymologyVerified": false,
+    "analog": "сценарий",
+    "group": "V",
+    "sphere": "dev",
+    "assimilation": "full",
+    "gender": "m",
+    "declinable": true,
+    "verbs": null,
+    "derivatives": [],
+    "variants": [],
+    "frequency": {
+      "ruscorpora": {
+        "anglicism": null,
+        "analog": null
+      },
+      "habr": {
+        "anglicism": null,
+        "analog": null
+      }
+    }
+  },
+  {
+    "id": "log",
+    "word": "лог",
+    "source": "log",
+    "meaning": "журнал событий программы",
+    "etymology": "log «бревно» → logbook «судовой журнал»",
+    "etymologyVerified": false,
+    "analog": "журнал",
+    "group": "V",
+    "sphere": "dev",
+    "assimilation": "professional",
+    "gender": "m",
+    "declinable": true,
+    "verbs": {
+      "imperfective": "логировать",
+      "perfective": "залогировать",
+      "prefix": "за-"
+    },
+    "derivatives": [],
+    "variants": [],
+    "frequency": {
+      "ruscorpora": {
+        "anglicism": null,
+        "analog": null
+      },
+      "habr": {
+        "anglicism": null,
+        "analog": null
+      }
+    }
+  },
+  {
+    "id": "exception",
+    "word": "эксепшн",
+    "source": "exception",
+    "meaning": "исключительная ситуация в программе",
+    "etymology": "лат. exceptio «исключение»",
+    "etymologyVerified": false,
+    "analog": "исключение",
+    "group": "V",
+    "sphere": "dev",
+    "assimilation": "partial",
+    "gender": "m",
+    "declinable": true,
+    "verbs": null,
+    "derivatives": [],
+    "variants": [
+      "эксепшен"
+    ],
+    "frequency": {
+      "ruscorpora": {
+        "anglicism": null,
+        "analog": null
+      },
+      "habr": {
+        "anglicism": null,
+        "analog": null
+      }
+    }
+  },
+  {
+    "id": "hardcode",
+    "word": "хардкод",
+    "source": "hardcode",
+    "meaning": "значения, жёстко прописанные в коде",
+    "etymology": "hard «жёсткий» + code < лат. codex «книга»",
+    "etymologyVerified": false,
+    "analog": "жёстко заданные значения",
+    "group": "A",
+    "sphere": "dev",
+    "assimilation": "professional",
+    "gender": "m",
+    "declinable": true,
+    "verbs": {
+      "imperfective": "хардкодить",
+      "perfective": "захардкодить",
+      "prefix": "за-"
+    },
+    "derivatives": [],
+    "variants": [],
+    "frequency": {
+      "ruscorpora": {
+        "anglicism": null,
+        "analog": null
+      },
+      "habr": {
+        "anglicism": null,
+        "analog": null
+      }
+    }
+  },
+  {
+    "id": "legacy",
+    "word": "легаси",
+    "source": "legacy",
+    "meaning": "устаревший унаследованный код",
+    "etymology": "лат. legare «завещать»; англ. «наследство»",
+    "etymologyVerified": false,
+    "analog": "унаследованный код",
+    "group": "A",
+    "sphere": "dev",
+    "assimilation": "partial",
+    "gender": "n",
+    "declinable": false,
+    "verbs": null,
+    "derivatives": [
+      "легаси-код"
+    ],
+    "variants": [],
+    "frequency": {
+      "ruscorpora": {
+        "anglicism": null,
+        "analog": null
+      },
+      "habr": {
+        "anglicism": null,
+        "analog": null
+      }
+    }
+  },
+  {
+    "id": "production",
+    "word": "прод",
+    "source": "production",
+    "meaning": "рабочая среда, где программой пользуются клиенты",
+    "etymology": "усечение от «продакшн»; лат. productio",
+    "etymologyVerified": false,
+    "analog": "рабочая среда",
+    "group": "A",
+    "sphere": "dev",
+    "assimilation": "professional",
+    "gender": "m",
+    "declinable": true,
+    "verbs": null,
+    "derivatives": [],
+    "variants": [],
+    "frequency": {
+      "ruscorpora": {
+        "anglicism": null,
+        "analog": null
+      },
+      "habr": {
+        "anglicism": null,
+        "analog": null
+      }
+    }
+  },
+  {
+    "id": "framework",
+    "word": "фреймворк",
+    "source": "framework",
+    "meaning": "программная платформа-каркас",
+    "etymology": "frame «рама» + work «конструкция»",
+    "etymologyVerified": false,
+    "analog": "каркас",
+    "group": "V",
+    "sphere": "dev",
+    "assimilation": "professional",
+    "gender": "m",
+    "declinable": true,
+    "verbs": null,
+    "derivatives": [],
+    "variants": [],
+    "frequency": {
+      "ruscorpora": {
+        "anglicism": null,
+        "analog": null
+      },
+      "habr": {
+        "anglicism": null,
+        "analog": null
+      }
+    }
+  },
+  {
+    "id": "backend",
+    "word": "бэкенд",
+    "source": "back end",
+    "meaning": "серверная часть приложения",
+    "etymology": "back «задний» + end «часть»",
+    "etymologyVerified": false,
+    "analog": "серверная часть",
+    "group": "A",
+    "sphere": "dev",
+    "assimilation": "professional",
+    "gender": "m",
+    "declinable": true,
+    "verbs": null,
+    "derivatives": [
+      "бэкендовый",
+      "бэкендер"
+    ],
+    "variants": [
+      "бекенд"
+    ],
+    "frequency": {
+      "ruscorpora": {
+        "anglicism": null,
+        "analog": null
+      },
+      "habr": {
+        "anglicism": null,
+        "analog": null
+      }
+    }
+  },
+  {
+    "id": "frontend",
+    "word": "фронтенд",
+    "source": "front end",
+    "meaning": "клиентская часть приложения",
+    "etymology": "front «передний» + end",
+    "etymologyVerified": false,
+    "analog": "клиентская часть",
+    "group": "A",
+    "sphere": "dev",
+    "assimilation": "professional",
+    "gender": "m",
+    "declinable": true,
+    "verbs": null,
+    "derivatives": [
+      "фронтендер"
+    ],
+    "variants": [
+      "фронтэнд"
+    ],
+    "frequency": {
+      "ruscorpora": {
+        "anglicism": null,
+        "analog": null
+      },
+      "habr": {
+        "anglicism": null,
+        "analog": null
+      }
+    }
+  },
+  {
+    "id": "stack",
+    "word": "стек",
+    "source": "stack",
+    "meaning": "набор технологий проекта",
+    "etymology": "др.-сканд. stakkr «стог»",
+    "etymologyVerified": false,
+    "analog": "набор технологий",
+    "group": "A",
+    "sphere": "dev",
+    "assimilation": "professional",
+    "gender": "m",
+    "declinable": true,
+    "verbs": null,
+    "derivatives": [],
+    "variants": [],
+    "frequency": {
+      "ruscorpora": {
+        "anglicism": null,
+        "analog": null
+      },
+      "habr": {
+        "anglicism": null,
+        "analog": null
+      }
+    }
+  },
+  {
+    "id": "feature",
+    "word": "фича",
+    "source": "feature",
+    "meaning": "функция, возможность программы",
+    "etymology": "ст.-фр. faiture < лат. factura «изготовление»",
+    "etymologyVerified": false,
+    "analog": "функция",
+    "group": "B",
+    "sphere": "process",
+    "assimilation": "professional",
+    "gender": "f",
+    "declinable": true,
+    "verbs": null,
+    "derivatives": [],
+    "variants": [],
+    "frequency": {
+      "ruscorpora": {
+        "anglicism": null,
+        "analog": null
+      },
+      "habr": {
+        "anglicism": null,
+        "analog": null
+      }
+    }
+  },
+  {
+    "id": "task",
+    "word": "таска",
+    "source": "task",
+    "meaning": "рабочая задача",
+    "etymology": "ст.-сев.-фр. tasque < ср.-лат. tasca «налог»",
+    "etymologyVerified": false,
+    "analog": "задача",
+    "group": "B",
+    "sphere": "process",
+    "assimilation": "professional",
+    "gender": "f",
+    "declinable": true,
+    "verbs": null,
+    "derivatives": [],
+    "variants": [],
+    "frequency": {
+      "ruscorpora": {
+        "anglicism": null,
+        "analog": null
+      },
+      "habr": {
+        "anglicism": null,
+        "analog": null
+      }
+    }
+  },
+  {
+    "id": "backlog",
+    "word": "бэклог",
+    "source": "backlog",
+    "meaning": "список задач на будущее",
+    "etymology": "«большое полено в глубине очага», перен. «запас»",
+    "etymologyVerified": false,
+    "analog": "список задач",
+    "group": "A",
+    "sphere": "process",
+    "assimilation": "professional",
+    "gender": "m",
+    "declinable": true,
+    "verbs": null,
+    "derivatives": [],
+    "variants": [],
+    "frequency": {
+      "ruscorpora": {
+        "anglicism": null,
+        "analog": null
+      },
+      "habr": {
+        "anglicism": null,
+        "analog": null
+      }
+    }
+  },
+  {
+    "id": "sprint",
+    "word": "спринт",
+    "source": "sprint",
+    "meaning": "рабочий цикл команды, обычно 1–4 недели",
+    "etymology": "скандинавского происхождения, «рывок»",
+    "etymologyVerified": false,
+    "analog": "итерация",
+    "group": "V",
+    "sphere": "process",
+    "assimilation": "professional",
+    "gender": "m",
+    "declinable": true,
+    "verbs": null,
+    "derivatives": [],
+    "variants": [],
+    "frequency": {
+      "ruscorpora": {
+        "anglicism": null,
+        "analog": null
+      },
+      "habr": {
+        "anglicism": null,
+        "analog": null
+      }
+    }
+  },
+  {
+    "id": "deadline",
+    "word": "дедлайн",
+    "source": "deadline",
+    "meaning": "крайний срок",
+    "etymology": "dead + line; газетный жаргон с 1919 г., возможно под влиянием «запретной линии» в тюрьмах Гражданской войны в США (1864)",
+    "etymologyVerified": true,
+    "analog": "крайний срок",
+    "group": "A",
+    "sphere": "process",
+    "assimilation": "full",
+    "gender": "m",
+    "declinable": true,
+    "verbs": null,
+    "derivatives": [],
+    "variants": [],
+    "frequency": {
+      "ruscorpora": {
+        "anglicism": null,
+        "analog": null
+      },
+      "habr": {
+        "anglicism": null,
+        "analog": null
+      }
+    }
+  },
+  {
+    "id": "teamlead",
+    "word": "тимлид",
+    "source": "team lead",
+    "meaning": "руководитель команды разработчиков",
+    "etymology": "др.-англ. tēam «упряжка» + lead «вести»",
+    "etymologyVerified": false,
+    "analog": "руководитель команды",
+    "group": "A",
+    "sphere": "process",
+    "assimilation": "professional",
+    "gender": "m",
+    "declinable": true,
+    "verbs": null,
+    "derivatives": [
+      "тимлидка"
+    ],
+    "variants": [],
+    "frequency": {
+      "ruscorpora": {
+        "anglicism": null,
+        "analog": null
+      },
+      "habr": {
+        "anglicism": null,
+        "analog": null
+      }
+    }
+  },
+  {
+    "id": "review",
+    "word": "ревью",
+    "source": "review",
+    "meaning": "проверка кода коллегами",
+    "etymology": "ср.-фр. revue < revoir «пересматривать»",
+    "etymologyVerified": false,
+    "analog": "проверка",
+    "group": "B",
+    "sphere": "process",
+    "assimilation": "partial",
+    "gender": "n",
+    "declinable": false,
+    "verbs": {
+      "imperfective": "ревьюить",
+      "perfective": "отревьюить",
+      "prefix": "от-"
+    },
+    "derivatives": [
+      "код-ревью"
+    ],
+    "variants": [],
+    "frequency": {
+      "ruscorpora": {
+        "anglicism": null,
+        "analog": null
+      },
+      "habr": {
+        "anglicism": null,
+        "analog": null
+      }
+    }
+  },
+  {
+    "id": "call",
+    "word": "колл",
+    "source": "call",
+    "meaning": "рабочий звонок",
+    "etymology": "др.-сканд. kalla «звать»",
+    "etymologyVerified": false,
+    "analog": "созвон",
+    "group": "B",
+    "sphere": "process",
+    "assimilation": "professional",
+    "gender": "m",
+    "declinable": true,
+    "verbs": null,
+    "derivatives": [],
+    "variants": [
+      "кол"
+    ],
+    "frequency": {
+      "ruscorpora": {
+        "anglicism": null,
+        "analog": null
+      },
+      "habr": {
+        "anglicism": null,
+        "analog": null
+      }
+    }
+  },
+  {
+    "id": "feedback",
+    "word": "фидбэк",
+    "source": "feedback",
+    "meaning": "обратная связь",
+    "etymology": "feed + back; изначально термин электротехники",
+    "etymologyVerified": false,
+    "analog": "обратная связь",
+    "group": "A",
+    "sphere": "process",
+    "assimilation": "professional",
+    "gender": "m",
+    "declinable": true,
+    "verbs": null,
+    "derivatives": [],
+    "variants": [
+      "фидбек"
+    ],
+    "frequency": {
+      "ruscorpora": {
+        "anglicism": null,
+        "analog": null
+      },
+      "habr": {
+        "anglicism": null,
+        "analog": null
+      }
+    }
+  },
+  {
+    "id": "skill",
+    "word": "скилл",
+    "source": "skill",
+    "meaning": "профессиональный навык",
+    "etymology": "др.-сканд. skil «различение, умение»",
+    "etymologyVerified": false,
+    "analog": "навык",
+    "group": "B",
+    "sphere": "process",
+    "assimilation": "professional",
+    "gender": "m",
+    "declinable": true,
+    "verbs": null,
+    "derivatives": [],
+    "variants": [
+      "скил"
+    ],
+    "frequency": {
+      "ruscorpora": {
+        "anglicism": null,
+        "analog": null
+      },
+      "habr": {
+        "anglicism": null,
+        "analog": null
+      }
+    }
+  },
+  {
+    "id": "user",
+    "word": "юзер",
+    "source": "user",
+    "meaning": "пользователь",
+    "etymology": "use < лат. usus «пользование»",
+    "etymologyVerified": false,
+    "analog": "пользователь",
+    "group": "B",
+    "sphere": "general",
+    "assimilation": "full",
+    "gender": "m",
+    "declinable": true,
+    "verbs": {
+      "imperfective": "юзать",
+      "perfective": "заюзать",
+      "prefix": "за-"
+    },
+    "derivatives": [
+      "юзерский"
+    ],
+    "variants": [],
+    "frequency": {
+      "ruscorpora": {
+        "anglicism": null,
+        "analog": null
+      },
+      "habr": {
+        "anglicism": null,
+        "analog": null
+      }
+    }
+  },
+  {
+    "id": "update",
+    "word": "апдейт",
+    "source": "update",
+    "meaning": "обновление",
+    "etymology": "up «до конца» + date «дата»",
+    "etymologyVerified": false,
+    "analog": "обновление",
+    "group": "B",
+    "sphere": "general",
+    "assimilation": "full",
+    "gender": "m",
+    "declinable": true,
+    "verbs": {
+      "imperfective": "апдейтить",
+      "perfective": "проапдейтить",
+      "prefix": "про-"
+    },
+    "derivatives": [],
+    "variants": [],
+    "frequency": {
+      "ruscorpora": {
+        "anglicism": null,
+        "analog": null
+      },
+      "habr": {
+        "anglicism": null,
+        "analog": null
+      }
+    }
+  },
+  {
+    "id": "software",
+    "word": "софт",
+    "source": "software",
+    "meaning": "программы для компьютера",
+    "etymology": "soft «мягкий» + ware «изделие», по образцу hardware",
+    "etymologyVerified": false,
+    "analog": "программное обеспечение",
+    "group": "A",
+    "sphere": "general",
+    "assimilation": "full",
+    "gender": "m",
+    "declinable": true,
+    "verbs": null,
+    "derivatives": [
+      "софтовый"
+    ],
+    "variants": [],
+    "frequency": {
+      "ruscorpora": {
+        "anglicism": null,
+        "analog": null
+      },
+      "habr": {
+        "anglicism": null,
+        "analog": null
+      }
+    }
+  },
+  {
+    "id": "login",
+    "word": "логин",
+    "source": "login",
+    "meaning": "имя для входа в систему",
+    "etymology": "log in «записаться в журнал»",
+    "etymologyVerified": false,
+    "analog": "имя пользователя",
+    "group": "A",
+    "sphere": "general",
+    "assimilation": "full",
+    "gender": "m",
+    "declinable": true,
+    "verbs": {
+      "imperfective": "логиниться",
+      "perfective": "залогиниться",
+      "prefix": "за-"
+    },
+    "derivatives": [],
+    "variants": [],
+    "frequency": {
+      "ruscorpora": {
+        "anglicism": null,
+        "analog": null
+      },
+      "habr": {
+        "anglicism": null,
+        "analog": null
+      }
+    }
+  }
+]
