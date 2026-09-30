@@ -1,5 +1,14 @@
 <script setup lang="ts">
 const { stats } = useWords()
+const { activeId } = useWordArticle()
+
+// Код статьи грузится только когда её впервые открыли (в т. ч. по ссылке #word-*)
+const articleNeeded = ref(false)
+onMounted(() => {
+  watch(activeId, (id) => {
+    if (id) articleNeeded.value = true
+  }, { immediate: true })
+})
 const config = useRuntimeConfig()
 
 const title = 'Баг или ошибка? Словарь IT-англицизмов'
@@ -21,12 +30,14 @@ useSeoMeta({
 <template>
   <div>
     <SectionsHero />
-    <SectionsDuel />
+    <!-- Секции ниже первого экрана гидратируются лениво: их JS не мешает первой отрисовке -->
+    <LazySectionsDuel hydrate-on-visible />
+    <!-- Словарь интерактивен сразу: ввод в поиск до гидратации не должен теряться -->
     <SectionsDictionary />
-    <SectionsGrammar />
-    <SectionsAssimilation />
-    <SectionsFindings />
-    <SectionsAbout />
-    <WordArticle />
+    <LazySectionsGrammar hydrate-on-visible />
+    <LazySectionsAssimilation hydrate-on-visible />
+    <LazySectionsFindings hydrate-on-visible />
+    <LazySectionsAbout hydrate-on-visible />
+    <LazyWordArticle v-if="articleNeeded" />
   </div>
 </template>

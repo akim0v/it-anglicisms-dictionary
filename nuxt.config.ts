@@ -13,6 +13,13 @@ export default defineNuxtConfig({
 
   css: ['~/assets/css/main.css'],
 
+  ui: {
+    experimental: {
+      // CSS генерируется только для используемых компонентов Nuxt UI
+      componentDetection: true
+    }
+  },
+
   runtimeConfig: {
     public: {
       // Итоговый адрес сайта на Vercel: задаётся через NUXT_PUBLIC_SITE_URL

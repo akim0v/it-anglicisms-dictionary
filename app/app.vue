@@ -12,6 +12,6 @@ import { ru } from '@nuxt/ui/locale'
     <UMain>
       <NuxtPage />
     </UMain>
-    <AboutFooter />
+    <LazyAboutFooter hydrate-on-visible />
   </UApp>
 </template>
