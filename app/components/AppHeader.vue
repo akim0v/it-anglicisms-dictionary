@@ -1,17 +1,22 @@
 <script setup lang="ts">
 import type { NavigationMenuItem } from '@nuxt/ui'
+import { useMounted } from '@vueuse/core'
 
 const route = useRoute()
 const router = useRouter()
 
-// Ссылки на секции сохраняют ?q=…&group=… словаря
-const topHref = computed(() => router.resolve({ query: route.query, hash: '#top' }).href)
+// Ссылки на секции сохраняют ?q=…&group=… словаря. Запрос подставляется
+// только после монтирования: страница пререндерится без него.
+const mounted = useMounted()
+const query = computed(() => (mounted.value ? route.query : {}))
+
+const topHref = computed(() => router.resolve({ query: query.value, hash: '#top' }).href)
 
 const items = computed<NavigationMenuItem[]>(() =>
   SECTIONS.map(section => ({
     label: section.label,
-    to: { query: route.query, hash: `#${section.id}` },
-    active: route.hash === `#${section.id}`
+    to: { query: query.value, hash: `#${section.id}` },
+    active: mounted.value && route.hash === `#${section.id}`
   }))
 )
 </script>

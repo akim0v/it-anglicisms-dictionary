@@ -8,6 +8,9 @@ dependencies:
   '@nuxt/ui':
     specifier: ^4
     version: 4.11.2(@tiptap/core@3.31.4)(@tiptap/extension-bubble-menu@3.31.4)(@tiptap/extension-code@3.31.4)(@tiptap/extension-collaboration@3.31.4)(@tiptap/extension-drag-handle-vue-3@3.31.4)(@tiptap/extension-drag-handle@3.31.4)(@tiptap/extension-floating-menu@3.31.4)(@tiptap/extension-horizontal-rule@3.31.4)(@tiptap/extension-image@3.31.4)(@tiptap/extension-mention@3.31.4)(@tiptap/extension-node-range@3.31.4)(@tiptap/extension-placeholder@3.31.4)(@tiptap/markdown@3.31.4)(@tiptap/pm@3.31.4)(@tiptap/starter-kit@3.31.4)(@tiptap/suggestion@3.31.4)(@tiptap/vue-3@3.31.4)(embla-carousel@8.6.0)(rolldown@1.2.12)(tailwindcss@4.3.3)(typescript@6.0.3)(vite@8.3.1)(vue@3.5.43)
+  '@vueuse/core':
+    specifier: ^15.0.0
+    version: 15.0.0(vue@3.5.43)
   nuxt:
     specifier: ^4
     version: 4.5.2(@vue/compiler-sfc@3.5.43)(eslint@10.11.0)(rolldown@1.2.12)(typescript@6.0.3)(vite@8.3.1)(vue-tsc@3.3.11)
@@ -3883,6 +3886,18 @@ packages:
       vue: 3.5.43(typescript@6.0.3)
     dev: false
 
+  /@vueuse/core@15.0.0(vue@3.5.43):
+    resolution: {integrity: sha512-Zv67h5mrk7YHDJsRObx+DXaCBz6RKBUpxqLesJ+3xZNPG6yuQs7ja7kg3veFrrouYLWAqydQ7CwGEbLVxB43Ng==}
+    engines: {node: '>=22'}
+    peerDependencies:
+      vue: ^3.5.0
+    dependencies:
+      '@types/web-bluetooth': 0.0.21
+      '@vueuse/metadata': 15.0.0
+      '@vueuse/shared': 15.0.0(vue@3.5.43)
+      vue: 3.5.43(typescript@6.0.3)
+    dev: false
+
   /@vueuse/integrations@14.4.0(fuse.js@7.5.0)(vue@3.5.43):
     resolution: {integrity: sha512-oJz9qTgczvA7L1nXQFRU7h8tQbOCoiceqvMMhT9XYMyOGTqLJ2rEa09PON+nD2t48sZUfeOmg4eaWJXV4sZb/w==}
     peerDependencies:
@@ -3939,6 +3954,11 @@ packages:
     resolution: {integrity: sha512-swx/255R6JyHZFJhx845iz5CRWDZdCfvkZOpACWc5+c5WHcG24mv8gUT1WIdFQaHt6dq79rvILd9QnCWiyVm9g==}
     dev: false
 
+  /@vueuse/metadata@15.0.0:
+    resolution: {integrity: sha512-sfWE5LADAKJ0KnjtGliMdSN8Ij/L7uP6rXIZlgPloAI4zvvefbw6H5Lt7KJA6RqQOYgVqWF5Guj50HHMIzygBg==}
+    engines: {node: '>=22'}
+    dev: false
+
   /@vueuse/shared@10.11.1(vue@3.5.43):
     resolution: {integrity: sha512-LHpC8711VFZlDaYUXEBbFBCQ7GS3dVU9mjOhhMhXP6txTV4EhYQg/KGnQuvt/sPAtoUKq7VVUnL6mVtFoL42sA==}
     dependencies:
@@ -3950,6 +3970,15 @@ packages:
 
   /@vueuse/shared@14.4.0(vue@3.5.43):
     resolution: {integrity: sha512-JRgY90Sz8DDtPMsaDflvPMp9xYk69JZAmbuDvAquUVXKr2gEjqtzGNTTthLfckH0BzBqvnu31gb4a8TGLRe79g==}
+    peerDependencies:
+      vue: ^3.5.0
+    dependencies:
+      vue: 3.5.43(typescript@6.0.3)
+    dev: false
+
+  /@vueuse/shared@15.0.0(vue@3.5.43):
+    resolution: {integrity: sha512-vbNXhGrbV53xPOMSyOzMHQRvhMgZf7oNDw2RChUetVxwTIEkInQ1joZ9JbT0G3z2n2AJNjvmCWeM9ySYrnvogA==}
+    engines: {node: '>=22'}
     peerDependencies:
       vue: ^3.5.0
     dependencies:
